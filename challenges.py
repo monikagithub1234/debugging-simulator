@@ -1,0 +1,22 @@
+challenges = [
+    {"id": 1, "code": "def divide_numbers(a, b):\n    return a / b\nprint(divide_numbers(5, 0))", "expected_output": "Error: Division by zero"},
+    {"id": 2, "code": "def find_length(arr):\n    return len(arr)\nprint(find_length(123))", "expected_output": "Error: Invalid input"},
+    {"id": 3, "code": "def is_prime(n):\n    for i in range(2, n):\n        if n % i == 0:\n            return False\n    return True\nprint(is_prime(1))", "expected_output": "False"},
+    {"id": 4, "code": "nums = [1, 2, 3]\nprint(nums[5])", "expected_output": "Index out of range"},
+    {"id": 5, "code": "def square(x):\n    return x ** 2\nprint(square('2'))", "expected_output": "Error: Invalid input"},
+    {"id": 6, "code": "def add(a, b):\n    return a + b\nprint(add(3))", "expected_output": "Error: Missing argument"},
+    {"id": 7, "code": "def greet(name):\n    return 'Hello' + name\nprint(greet(None))", "expected_output": "Error: Invalid name"},
+    {"id": 8, "code": "data = {'a': 1, 'b': 2}\nprint(data['c'])", "expected_output": "Key not found"},
+    {"id": 9, "code": "def reverse(s):\n    return s[::-1]\nprint(reverse(1234))", "expected_output": "Error: Invalid input"},
+    {"id": 10, "code": "import math\nprint(math.sqrt(-1))", "expected_output": "Math domain error"},
+    {"id": 11, "code": "def to_int(val):\n    return int(val)\nprint(to_int('abc'))", "expected_output": "Error: Cannot convert"},
+    {"id": 12, "code": "def sum_list(lst):\n    return sum(lst)\nprint(sum_list(None))", "expected_output": "Error: Invalid input"},
+    {"id": 13, "code": "def upper_text(text):\n    return text.upper()\nprint(upper_text(5))", "expected_output": "Error: Not a string"},
+    {"id": 14, "code": "for i in range(5):\nprint(i)", "expected_output": "IndentationError"},
+    {"id": 15, "code": "x = 5\ny = '5'\nprint(x + y)", "expected_output": "Error: Cannot add int and str"},
+    {"id": 16, "code": "def divide(a, b):\n    return a / b\nprint(divide(10, '2'))", "expected_output": "Error: Invalid types"},
+    {"id": 17, "code": "lst = [1,2,3]\nprint(lst.remove(4))", "expected_output": "Error: Value not in list"},
+    {"id": 18, "code": "from math import log\nprint(log(-10))", "expected_output": "Math domain error"},
+    {"id": 19, "code": "def count_chars(s):\n    return len(s)\nprint(count_chars(42))", "expected_output": "Error: Not a string"},
+    {"id": 20, "code": "def index_val(arr):\n    return arr.index(10)\nprint(index_val([1,2,3]))", "expected_output": "Error: Value not found"}
+]
