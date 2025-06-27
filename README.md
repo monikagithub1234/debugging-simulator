@@ -143,8 +143,8 @@ Add new challenges via JSON
 🙋 About Me
 Monika Priya Nagam
 🎓 4th Year Engineering Student | Full-Stack Enthusiast | Python Lover
-📧 monikapriya@example.com
-🌐 LinkedIn | GitHub
+🌐 LinkedIn[https://www.linkedin.com/in/monika-priya-nagam/]
+
 
 📄 License
 Licensed under the MIT License.
